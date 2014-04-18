@@ -1,0 +1,4 @@
+#!/bin/sh
+# cd /home/azureuser/src/test-repo
+
+# touch testfile
