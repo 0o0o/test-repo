@@ -1,3 +1,2 @@
 <?php
-exec('bash /home/azureuser/src/test-repo/build.sh', $ret);
-var_dump($ret);
+exec('/usr/bin/git --git-dir=/home/azureuser/src/test-repo/.git --work-tree=/home/azureuser/src/test-repo pull', $ret, $err);
