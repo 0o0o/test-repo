@@ -1,2 +1,0 @@
-<?php
-exec('sudo .././build.sh');
